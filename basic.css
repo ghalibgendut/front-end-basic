@@ -235,6 +235,12 @@ div.width-height{
 
         - padding : 5px 10px 15px 20px; top 5px, right 10px, bottom 15px, left 20px
     */
+
+div#box-margin {
+    margin: 30px 20px;
+}
+
+
 div#box-margin div{
     width: 300px;
     height: 100px;
@@ -269,6 +275,25 @@ div#marginB {
 
 div#marginC {
     background-color: rgb(106, 95, 255);
+}
+
+/* Margin horizontal */
+div#margin1 {
+    background-color: deeppink;
+    display: inline-block;
+}
+
+div#margin2 {
+    background-color: rgb(252, 112, 186);
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div#margin3 {
+    background-color: rgb(207, 129, 171);
+    display: inline-block;
+    margin-left: 10px;
 }
 
 
