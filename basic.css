@@ -226,6 +226,15 @@ div.width-height{
     Semua tag div yang ada di dalam tag div (parent)
     dimana div (parent) memiliki id :box-margin
 */
+/* 
+        shorthand padding
+
+        - padding : 5px ; semua sisi akan memiliki 5px 
+        - padding : 5px 10px; top dan bottom 5px, left dan right 10px
+        - padding : 5px 10px 15px; top 5px, left & right 10px, bottom 15px
+
+        - padding : 5px 10px 15px 20px; top 5px, right 10px, bottom 15px, left 20px
+    */
 div#box-margin div{
     width: 300px;
     height: 100px;
@@ -245,9 +254,11 @@ div#box-margin div{
 
 div#marginA {
     background-color: rgb(122, 252, 252);
-    margin-top: 20px;
+    /* margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 30px;
+    margin-left: 30px; */
+    margin: 20px 30px 15px;
+    /* top 20px, left & right 30px, bottom 15px */
 
 }
 
