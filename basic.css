@@ -221,6 +221,33 @@ div.width-height{
 }
 
 
+/* Margin */
+/* 
+    Semua tag div yang ada di dalam tag div (parent)
+    dimana div (parent) memiliki id :box-margin
+*/
+div#box-margin div{
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+div#marginA {
+    background-color: rgb(122, 252, 252);
+}
+
+div#marginB {
+    background-color: rgb(103, 247, 134);
+}
+
+div#marginC {
+    background-color: rgb(106, 95, 255);
+}
+
+
 /* Untuk tag apapun yang memiliki id inside dan berada didalam tag div */
 /* div #inside{
 
