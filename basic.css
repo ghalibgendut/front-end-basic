@@ -235,12 +235,25 @@ div#box-margin div{
     border: 1px solid black;
 }
 
+/* 
+    Margin di sisi vertical atau top dan buttom
+    margin collapse
+        jika margin top dari suatu element bertemu dengan margin buttom element lain
+        kedua margin tsb tidak akan dijumlahkan melainkan diambil dari yang terbesar
+        dan ini hanya berlaku untuk vertical saja  
+*/
+
 div#marginA {
     background-color: rgb(122, 252, 252);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+
 }
 
 div#marginB {
     background-color: rgb(103, 247, 134);
+    margin-top: 10px;
 }
 
 div#marginC {
